@@ -13,7 +13,7 @@ class App extends Component{
     super(props);
     this.state = {
       numero: 0,
-      botao: 'VAI',
+      botao: 'Iniciar',
       ultimo: null
     };
 
@@ -31,7 +31,7 @@ class App extends Component{
       clearInterval(this.timer);
       this.timer = null;
 
-      this.setState({botao: 'VAI'});
+      this.setState({botao: 'Iniciar'});
     }else{
 
       //Comeca girar o timer
@@ -53,7 +53,7 @@ class App extends Component{
     this.setState({
       ultimo: this.state.numero,
       numero: 0,
-      botao: 'VAI'
+      botao: 'Iniciar'
     })
   }
 
@@ -75,7 +75,7 @@ class App extends Component{
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.btn} onPress={this.limpar}>
-          <Text style={styles.btnTexto}>LIMPAR</Text>
+          <Text style={styles.btnTexto}>Zerar</Text>
         </TouchableOpacity>
 
       </View>

@@ -39,7 +39,7 @@ class App extends Component{
         this.setState({numero: this.state.numero + 0.1})
       }, 100);
 
-      this.setState({botao: 'PARAR'});
+      this.setState({botao: 'Parar'});
     }
 
   }

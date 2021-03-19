@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     flex:1,
     alignItems:'center',
     justifyContent: 'center',
-    backgroundColor: '#00aeef'
+    backgroundColor: '#4E6151'
   },
   timer:{
     marginTop:-160,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
   btnTexto:{
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#00aeef'
+    color: '#4E6151'
   },
   areaUltima:{
     marginTop: 40,
